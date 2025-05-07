@@ -90,9 +90,9 @@ int main(void)
 
 	string = "Hello motherfucker !";
 	number = 42;
-	retval_ft_printf = ft_printf("ft_printf : \n string = %s (%%)\n dec = %d\n hex = %x\n", string, number, number);
+	retval_ft_printf = ft_printf("ft_printf : \n string = %w (%%)\n dec = %d\n hex = %x\n", string, number, number);
 	printf("retval = %d\n\n", retval_ft_printf);
-	retval_printf = printf("printf    : \n string = %s (%%)\n dec = %d\n hex = %x\n", string, number, number);
+	retval_printf = printf("printf    : \n string = %w (%%)\n dec = %d\n hex = %x\n", string, number, number);
 	printf("retval = %d\n\n", retval_printf);
 	return (0);
 }
